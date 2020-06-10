@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!--charecter coding-->
+    <meta charset="utf-8">  
+    <!--title tag-->
+    <title>This Is The Title Of My Poem</title>
+    <!--meta description-->
+    <meta name="description" content="Poem Project By Rohit">
+    <!--mobile-friendly viewport-->
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <!--w3.css-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <!-- Animate.css -->
+    <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <!--
+    <link href="stylesheet" href="css/animate.css">-->
+</head>
+
+<body class="w3-black">
+
+    <!--SLIDE #1-->
+    <section class="mySlides fs img-1">
+         <div class="w3-cell-row">
+            <div class="w3-container w3-cell w3-mobile w3-cell-bottom w3-display-middle">
+                <h1 class="animate__animated animate__fadeIn ">The scorching sun was making our bodies hotter</h1>
+              </div>
+              
+        </div>
+
+    </section>
+
+        <!--SLIDE #2-->
+        <section class="mySlides fs img-2">
+            <div class="w3-cell-row">
+               <div class="w3-container w3-cell w3-mobile w3-cell-bottom w3-display-middle">
+                   <h1 class="animate__animated animate__fadeIn ">Soon we would have no choice but to go in the water</h1>
+                 </div>
+                 
+           </div>
+   
+       </section>
+
+       <!--SLIDE #3-->
+       <section class="mySlides">
+           <!-- The video -->
+    <video autoplay muted loop class="fs-video">
+        <source src="video/video1.mp4" type="video/mp4">
+            </video>
+        <div class="w3-cell-row">
+           <div class="w3-container w3-cell w3-mobile w3-cell-bottom w3-display-bottommiddle">
+               <h1 class="animate__animated animate__fadeIn ">We trotted in the blazing sand</h1>
+             </div>
+             
+       </div>
+
+   </section>
+
+   <!-- music player -->
+   <figure class="w3-display-bottomright">
+    <audio autoplay controls src="music/Broke_For_Free_-_05_-_Something_Elated.mp3">
+       Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+    <figcaption>Something Elated by Broke For Free via <a href="https://freemusicarchive.org/">Free Music Archive</a></figcaption>
+</figure>
+
+
+    <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+    <script src="js/slides.js"></script>
+
+
+</body>
+
+</html>
