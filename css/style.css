@@ -36,6 +36,16 @@ body, html {
     background-image: url("../img/picture2.jpg");
 }
 
+.img-4 {
+  /* The image used */
+  background-image: url("../img/picture4.jpg");
+}
+
+.img-5 {
+  /* The image used */
+  background-image: url("../img/picture5.jpg");
+}
+
 /* full screen videos*/
 
 .fs-video {
